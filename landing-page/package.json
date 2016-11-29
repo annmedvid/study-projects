@@ -1,1 +1,34 @@
+{
+    "name": "landing-page",
+    "version": "1.0.0",
+    "description": "study project",
+    "keywords":
+    [
+        "study",
+        "project"
+    ],
+    "bugs":
+    {
+        "email": "anasim669@gmail.com"
+    },
+    "author": "Anna Medvid <anasim669@gmail.com>",
+    "repository": "annmedvid/study-projects",
+    "devDependencies":
+    {
+        "gulp": "^3.9.1",
+        "gulp-concat": "^2.6.0",
         "gulp-postcss": "^6.2.0",
+        "gulp-connect": "^5.0.0",
+
+        "postcss-media-minmax": "^2.1.2",
+        "postcss-nested-props": "^1.1.0",
+        "postcss-nested": "^1.0.0",
+        "postcss-custom-properties": "^5.0.1",
+        "postcss-short-spacing": "^1.0.0",
+        "autoprefixer": "^6.5.3"
+    },
+    "scripts":
+    {
+        "start": "gulp dev"
+    }
+}
