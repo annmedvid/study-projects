@@ -12,6 +12,7 @@ const plugins =
     require("postcss-custom-properties"),
     require("postcss-short-spacing"),
     require("autoprefixer"),
+    require("postcss-font-awesome"),
 ]
 
 gulp.task("connect", () =>

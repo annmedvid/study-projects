@@ -25,7 +25,8 @@
         "postcss-nested": "^1.0.0",
         "postcss-custom-properties": "^5.0.1",
         "postcss-short-spacing": "^1.0.0",
-        "autoprefixer": "^6.5.3"
+        "autoprefixer": "^6.5.3",
+        "postcss-font-awesome": "^0.3.4"
     },
     "scripts":
     {
