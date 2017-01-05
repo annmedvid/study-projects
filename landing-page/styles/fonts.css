@@ -1,0 +1,12 @@
+@font-face
+{
+	font-family: "MontserratRegular";
+	src: url(fonts/montserrat-regular.ttf) format("truetype");
+}
+
+@font-face
+{
+	font-family: "LoraRegular";
+	src: url(fonts/lora-regular.ttf) format("truetype");
+}
+
