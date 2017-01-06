@@ -1,0 +1,39 @@
+.portfolio
+{
+	padding: 80px *;
+	text-align: center;
+	background: var(--alabaster);
+
+	.portfolio-slogan
+	{
+		margin-bottom: 10px;
+		font-size: 30px;
+		text-transform: capitalize;
+	}
+
+	.portfolio-description
+	{
+		font-size: 15px;
+		color: var(--gray);
+	}
+
+	.portfolio-gallery
+	{
+		margin-top: 40px; 
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+
+		.portfolio-item
+		{
+			max-width: 390px;
+			max-height: 260px;
+			margin: 10px;
+
+			&:hover
+			{
+				cursor: pointer;
+			} 
+		}
+	}
+}
