@@ -1,0 +1,54 @@
+.contact
+{
+	padding: 80px *;
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+
+	&> *
+	{
+		flex: 1 100%;
+	}
+
+	.contact-slogan
+	{
+		margin-bottom: 10px;
+		font-size: 30px;
+		text-transform: capitalize;
+	}
+
+	.contact-description
+	{
+		font-size: 15px;
+		color: var(--gray);
+	}
+
+	.contact-map
+	{
+		margin: 40px *;
+	}
+
+	.contact-info
+	{
+		flex: 1 0px;
+		text-align: left;
+		font-family: var(--lora);
+		font-size: 15px;
+		color: var(--gray);
+
+		.contact-info-slogan
+		{
+			margin-top: 50px;
+			margin-bottom: 25px;
+			text-transform: capitalize;
+			font-family: var(--montserrat);
+			font-size: 20px;
+			color: var(--mineshaft);
+
+			&:first-of-type
+			{
+				margin-top: 10px;
+			}
+		}
+	}
+}
