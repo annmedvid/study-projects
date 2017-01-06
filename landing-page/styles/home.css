@@ -1,0 +1,66 @@
+.home
+{
+	height: 726px;
+	position: relative;
+	top: 0;
+	padding-top: 200px;
+	box-sizing: border-box;
+	color: var(--white);
+	text-align: center;
+	background: rgba(0,0,0,0.3);
+
+	.logo-anchor
+	{
+		width: 88px;
+		height: 88px;
+		position: absolute;
+		left: 15px;
+		top: 15px;
+	}
+
+	.company-name
+	{
+		font-size: 75px;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+
+	.company-description
+	{
+		padding: * 180px;
+		font-family: var(--lora);
+		font-size: 21px;
+	}
+
+	.start
+	{
+		width: 110px;
+		height: 50px;
+		margin: 15px auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: var(--carnation);
+
+		&:hover
+		{
+			background: var(--white);
+			color: var(--carnation);
+			border: 2px solid var(--carnation);
+			cursor: pointer;
+		}
+	}
+
+	&:after
+	{
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: url(images/bg.jpg);
+		background-size: cover;
+	}
+}
