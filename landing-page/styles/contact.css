@@ -28,6 +28,61 @@
 		margin: 40px *;
 	}
 
+	.send-message
+	{
+		padding-right: 100px;
+		flex: 3 0px;
+		display: flex;
+		flex-flow: row wrap;
+		text-transform: uppercase;
+
+		&> *
+		{
+			height: 60px;
+			margin: 10px;
+			padding: 15px 25px;
+			flex: 1 100%;
+			text-transform: capitalize;
+			font-family: var(--lora);
+			font-size: 15px;
+			color: var(--gray);
+			background: var(--aquahaze);
+
+			&:focus
+			{
+				border: 1px solid var(--mineshaft);
+			}
+		}
+
+		.name, .email
+		{
+			flex: 1 auto;
+		}
+
+		.message-text
+		{
+			height: 200px;
+			color: var(--gray);
+		}
+
+		.send
+		{
+			text-transform: uppercase;
+			font-family: var(--montserrat);
+			font-size: 18px;
+			color: var(--white);
+			background: var(--carnation);
+
+			&:hover
+			{
+				color: var(--carnation);
+				background: var(--white);
+				border: 2px solid var(--carnation);
+				cursor: pointer;
+			}
+		}
+	}
+
 	.contact-info
 	{
 		flex: 1 0px;
