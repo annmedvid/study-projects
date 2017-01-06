@@ -4,3 +4,12 @@
 	color: var(--mineshaft);
 }
 
+*
+{
+	box-sizing: border-box;
+}
+
+.moderno-content
+{
+	margin: * 50px;
+}
