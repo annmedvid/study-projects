@@ -1,3 +1,18 @@
-body, a, h1, h2, p {
+body, a, address
+{
     all: unset;
+}
+
+h1, h2, h3, p, figure
+{
+	margin: 0;
+}
+
+input, textarea
+{
+	margin: o;
+	padding: 0;
+	border: none;
+	box-shadow: none;
+	outline: none;
 }
